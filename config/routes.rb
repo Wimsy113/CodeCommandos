@@ -1,5 +1,11 @@
 Rails.application.routes.draw do
 
+  get 'account/index'
+
+  get 'errors/index'
+
+  get 'pages/index'
+
   get 'welcome/index'
 
 
