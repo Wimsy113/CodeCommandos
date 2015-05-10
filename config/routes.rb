@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
 
+  get 'welcome/index'
+
   # devise_for :accounts
   # root to "pages#dashboard"
 
