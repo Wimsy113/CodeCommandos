@@ -43,9 +43,3 @@ group :development, :test do
   gem 'spring'
 end
 
-group :design, do 
-	gem 'bourbon',
-	gem 'neat',
-	gem 'bitters'
-end
-
