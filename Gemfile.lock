@@ -39,6 +39,13 @@ GEM
     arel (6.0.0)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bitters (1.0.0)
+      bourbon (>= 3.2)
+      sass (>= 3.2)
+      thor
+    bourbon (4.2.3)
+      sass (~> 3.4)
+      thor
     builder (3.2.2)
     byebug (4.0.5)
       columnize (= 0.9.0)
@@ -142,6 +149,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bitters
+  bourbon
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
